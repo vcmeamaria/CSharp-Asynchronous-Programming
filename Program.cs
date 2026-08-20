@@ -445,31 +445,6 @@ static void ShowSnippetTitle(string number, string title)
 
 
 // ==========================================================
-// HELPER METHOD - COMING SOON
-// ==========================================================
-//
-// We have already created the complete menu.
-//
-// However, we haven't created every snippet class yet.
-//
-// Until a snippet exists, this message allows the menu
-// option to work WITHOUT causing compiler errors.
-//
-// As we build each snippet, we will replace this with:
-//
-// await SnippetXXSomething.RunAsync();
-//
-// ==========================================================
-
-static void ShowComingSoonMessage()
-{
-    Console.WriteLine("This snippet has not been added yet.");
-    Console.WriteLine();
-    Console.WriteLine("We will build it as part of the next lesson.");
-}
-
-
-// ==========================================================
 // HELPER METHOD - RETURN TO MENU
 // ==========================================================
 //

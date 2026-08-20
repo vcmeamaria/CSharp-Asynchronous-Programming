@@ -15,7 +15,7 @@
 //        ↓
 // We wait for it to finish
 //
-// The professor's example uses two operations:
+// The example's example uses two operations:
 //
 // 1. GetUserAsync()
 // 2. GetOrdersAsync()

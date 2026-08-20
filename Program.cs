@@ -5,7 +5,7 @@
 //
 // This file is the ENTRY POINT of the application.
 //
-// Each lesson from the professor's Async / Await PDF
+// Each lesson from the example's Async / Await PDF
 // will have its own separate class inside the
 // "Snippets" folder.
 //
@@ -53,7 +53,7 @@ while (true)
 
 
     // ======================================================
-    // PROFESSOR'S ASYNC / AWAIT SNIPPETS
+    // example'S ASYNC / AWAIT SNIPPETS
     // ======================================================
 
     Console.WriteLine("1  - Basic Task + async / await");
@@ -355,12 +355,7 @@ while (true)
                 "ASYNC / AWAIT MINI EXERCISE"
             );
 
-
-            // Later:
-            //
-            // await Snippet11MiniExercise.RunAsync();
-
-            ShowComingSoonMessage();
+            await Snippet11MiniExercise.RunAsync();
 
 
             WaitForMenu();

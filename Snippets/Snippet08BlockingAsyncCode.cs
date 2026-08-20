@@ -7,7 +7,7 @@
 //
 // AVOID BLOCKING asynchronous code.
 //
-// The professor gives two examples to avoid:
+// The example gives two examples to avoid:
 //
 // GetDataAsync().Result
 //
@@ -47,7 +47,7 @@ public static class Snippet08BlockingAsyncCode
     //
     // This method demonstrates the RECOMMENDED approach.
     //
-    // We will keep the professor's .Result and .Wait()
+    // We will keep the example's .Result and .Wait()
     // examples below for learning purposes, but we will
     // NOT execute them.
     //
@@ -59,7 +59,7 @@ public static class Snippet08BlockingAsyncCode
         // AVOID: .RESULT
         // ==================================================
         //
-        // The professor says to avoid:
+        // The example says to avoid:
         //
         // var result = GetDataAsync().Result;
         //
@@ -70,7 +70,7 @@ public static class Snippet08BlockingAsyncCode
         //
         // "sync-over-async"
         //
-        // The professor notes that this can contribute
+        // The example notes that this can contribute
         // to deadlocks and reduce scalability.
         //
         // We are therefore NOT executing this line:
@@ -84,7 +84,7 @@ public static class Snippet08BlockingAsyncCode
         // ALSO AVOID: .WAIT()
         // ==================================================
         //
-        // The professor also says to avoid:
+        // The example also says to avoid:
         //
         // GetDataAsync().Wait();
         //
@@ -126,7 +126,7 @@ public static class Snippet08BlockingAsyncCode
     // GET DATA ASYNCHRONOUSLY
     // ======================================================
     //
-    // The professor's section shows GetDataAsync()
+    // The example's section shows GetDataAsync()
     // being called, but does not provide the full method
     // implementation in this particular section.
     //

@@ -5,7 +5,7 @@
 //
 // This snippet introduces ValueTask<T>.
 //
-// The professor explains that ValueTask<T> can be useful
+// The example explains that ValueTask<T> can be useful
 // when an asynchronous method is called very frequently
 // AND its result is often already available synchronously.
 //
@@ -251,7 +251,7 @@ public static class Snippet09ValueTaskCache
         //
         // This represents the slower path.
         //
-        // The professor calls this:
+        // The example calls this:
         //
         // LoadUserFromDatabaseAsync
         //

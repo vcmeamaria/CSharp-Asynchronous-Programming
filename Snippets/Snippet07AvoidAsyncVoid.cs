@@ -13,7 +13,7 @@
 //
 // async Task
 //
-// The professor explains that "async void" should normally
+// The example explains that "async void" should normally
 // only be used for event handlers, such as UI events.
 //
 // ==========================================================
@@ -67,7 +67,7 @@ public static class Snippet07AvoidAsyncVoid
     // AVOID THIS - ASYNC VOID
     // ======================================================
     //
-    // This is the pattern shown in the professor's PDF
+    // This is the pattern shown in the example's PDF
     // as something we should normally AVOID:
     //
     // static async void DoWork()
@@ -77,7 +77,7 @@ public static class Snippet07AvoidAsyncVoid
     // A method returning void cannot normally be awaited
     // by the code that calls it.
     //
-    // The professor notes that async void should mainly
+    // The example notes that async void should mainly
     // be used for EVENT HANDLERS.
     //
     // We keep this method here for learning purposes,

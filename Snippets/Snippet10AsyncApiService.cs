@@ -48,8 +48,7 @@ public static class Snippet10AsyncApiService
     // RUNASYNC METHOD
     // ======================================================
     //
-    // This contains the main logic from the professor's
-    // Program.Main example.
+    // This contains the main logic from the Program.Main example.
     //
     // ======================================================
 
@@ -159,7 +158,7 @@ public static class Snippet10AsyncApiService
     // WEBSITE SERVICE
     // ======================================================
     //
-    // The professor creates a separate WebsiteService
+    // The example creates a separate WebsiteService
     // class for the HTTP request.
     //
     // We keep that same separation here, but place it
@@ -176,7 +175,7 @@ public static class Snippet10AsyncApiService
         //
         // HttpClient is used to send HTTP requests.
         //
-        // The professor declares ONE reusable HttpClient
+        // The example declares ONE reusable HttpClient
         // rather than creating a new one for every request.
         //
         // static

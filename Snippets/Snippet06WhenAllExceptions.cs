@@ -121,7 +121,7 @@ public static class Snippet06WhenAllExceptions
         // If one or more Tasks fail, execution reaches
         // this catch block.
         //
-        // The professor's example uses a catch without
+        // The example's example uses a catch without
         // declaring an Exception variable because we are
         // going to inspect each Task individually below.
         //

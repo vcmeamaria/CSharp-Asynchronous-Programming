@@ -45,7 +45,7 @@ public static class Snippet01BasicAsyncAwait
     // RUNASYNC METHOD
     // ======================================================
     //
-    // In the professor's original example, this code was
+    // In the example's original example, this code was
     // inside:
     //
     // static async Task Main()

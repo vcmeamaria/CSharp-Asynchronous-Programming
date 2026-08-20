@@ -128,13 +128,6 @@ while (true)
                 "BASIC TASK + ASYNC / AWAIT"
             );
 
-
-            // Snippet 01 already exists, so we can
-            // run its RunAsync() method.
-            //
-            // "await" waits until the asynchronous
-            // snippet has completed.
-
             await Snippet01BasicAsyncAwait.RunAsync();
 
 
@@ -157,13 +150,6 @@ while (true)
                 "TASK<T>: RETURNING VALUES ASYNCHRONOUSLY"
             );
 
-
-            // We will replace this placeholder with:
-            //
-            // await Snippet02TaskReturningValues.RunAsync();
-            //
-            // once we create Snippet 02.
-
             await Snippet02TaskReturningValues.RunAsync();
 
 
@@ -185,11 +171,6 @@ while (true)
                 "SNIPPET 03",
                 "SEQUENTIAL ASYNC OPERATIONS"
             );
-
-
-            // Later:
-            //
-            // await Snippet03SequentialAsync.RunAsync();
 
             await Snippet03SequentialAsync.RunAsync();
 
@@ -214,10 +195,6 @@ while (true)
             );
 
 
-            // Later:
-            //
-            // await Snippet04TaskWhenAll.RunAsync();
-
             await Snippet04TaskWhenAll.RunAsync();
 
 
@@ -241,11 +218,7 @@ while (true)
             );
 
 
-            // Later:
-            //
-            // await Snippet05ExceptionHandling.RunAsync();
-
-            ShowComingSoonMessage();
+            await Snippet05ExceptionHandling.RunAsync();
 
 
             WaitForMenu();

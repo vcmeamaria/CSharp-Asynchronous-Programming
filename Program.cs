@@ -310,11 +310,7 @@ while (true)
             );
 
 
-            // Later:
-            //
-            // await Snippet09ValueTaskCache.RunAsync();
-
-            ShowComingSoonMessage();
+            await Snippet09ValueTaskCache.RunAsync();
 
 
             WaitForMenu();

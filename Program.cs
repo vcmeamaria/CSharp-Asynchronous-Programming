@@ -287,11 +287,7 @@ while (true)
             );
 
 
-            // Later:
-            //
-            // await Snippet08BlockingAsyncCode.RunAsync();
-
-            ShowComingSoonMessage();
+            await Snippet08BlockingAsyncCode.RunAsync();
 
 
             WaitForMenu();

@@ -218,7 +218,7 @@ while (true)
             //
             // await Snippet04TaskWhenAll.RunAsync();
 
-            ShowComingSoonMessage();
+            await Snippet04TaskWhenAll.RunAsync();
 
 
             WaitForMenu();

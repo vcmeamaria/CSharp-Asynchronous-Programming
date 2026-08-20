@@ -333,11 +333,7 @@ while (true)
             );
 
 
-            // Later:
-            //
-            // await Snippet10AsyncApiService.RunAsync();
-
-            ShowComingSoonMessage();
+            await Snippet10AsyncApiService.RunAsync();
 
 
             WaitForMenu();

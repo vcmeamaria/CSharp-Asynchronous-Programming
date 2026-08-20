@@ -164,7 +164,7 @@ while (true)
             //
             // once we create Snippet 02.
 
-            ShowComingSoonMessage();
+            await Snippet02TaskReturningValues.RunAsync();
 
 
             WaitForMenu();

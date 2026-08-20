@@ -143,7 +143,7 @@ public static class Snippet04TaskWhenAll
         //
         // have finished.
         //
-        // The professor's example uses .Result here
+        // The example's example uses .Result here
         // to access the value stored inside each Task.
         //
         // userTask.Result

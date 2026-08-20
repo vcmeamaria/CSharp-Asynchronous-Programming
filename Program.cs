@@ -241,11 +241,7 @@ while (true)
             );
 
 
-            // Later:
-            //
-            // await Snippet06WhenAllExceptions.RunAsync();
-
-            ShowComingSoonMessage();
+            await Snippet06WhenAllExceptions.RunAsync();
 
 
             WaitForMenu();

@@ -191,7 +191,7 @@ while (true)
             //
             // await Snippet03SequentialAsync.RunAsync();
 
-            ShowComingSoonMessage();
+            await Snippet03SequentialAsync.RunAsync();
 
 
             WaitForMenu();

@@ -264,11 +264,7 @@ while (true)
             );
 
 
-            // Later:
-            //
-            // await Snippet07AvoidAsyncVoid.RunAsync();
-
-            ShowComingSoonMessage();
+            await Snippet07AvoidAsyncVoid.RunAsync();
 
 
             WaitForMenu();
